@@ -4,8 +4,11 @@ import alumnos.*;
 public class MainAlumnos {
 
 	public static void main(String[] args) {
+		//Inicializo un alumno con tres parametros
 		Alumno constructorA = new Alumno("A", "Curso", 2);
+		//Inicializo un alumno con dos parametros
 		Alumno constructorB = new Alumno("B", "Curso 2");
+		//Inicializo un alumno con un parametro
 		Alumno constructorC = new Alumno("C");
 		//Cambio el nombre del constructorA
 		constructorA.cambiarNombre("Juan");
